@@ -11,7 +11,7 @@
 3. Open Serial to view data
 
 
-> For a detailed write up, reead below
+> For a detailed write up, read below
 
 ## Pinout Configuration
 
@@ -36,7 +36,7 @@
     - Toggle `PLL` and `PLLCLK`
     - Set input frequency to `8Mhz`
 
-- You might want to set `PLLMul` to **11 or above** then click `Resolve Clock Issues` 
+- You might want to set the multiplier `PLLMul` to **11 or above** then click `Resolve Clock Issues` 
 ![SysClockConfig](Static/SysClockConfig.png)
 
 ## Project Management 
