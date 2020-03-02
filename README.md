@@ -2,7 +2,7 @@
 
 ## TLDR; 
 
-> To get **up and running quickly** with this sample follow the steps below:
+> To get **up and running quickly** with this sample, follow the steps below:
 
 1. Hook the DHT Sensor to `PB12` on the board
 
@@ -70,3 +70,6 @@ extern int __io_putchar(int ch) __attribute__((weak));
 - Also note that an IRQ handler is required for USART1; see `./Core/Src/stm32f1xx_it.c`.
 
 - Note the **differences** under `./Core/{Src,Inc}/usart.{h,c}` 
+
+- Note **custom implementation of µSeconds delay** inside `./Core/{Inc,Src}/main.{h,c}` 
+
